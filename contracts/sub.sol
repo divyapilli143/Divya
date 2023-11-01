@@ -1,9 +1,9 @@
-pragma solidity ^0.4.0;
+pragma solidity 0.4.18;
 
 contract Sub {
-uint Reslut;
+uint Result;
 function Subtr(uint _firstvalue, uint _secondvalue) public view returns(uint){
-Reslut = _firstvalue - _secondvalue;
-return Reslut;
+Result = _firstvalue - _secondvalue;
+return Result;
 }
 }
