@@ -1,4 +1,5 @@
 pragma solidity 0.4.18;
+
 contract Details {
 mapping (uint256 => Data) public Requirements;
 struct Data {
